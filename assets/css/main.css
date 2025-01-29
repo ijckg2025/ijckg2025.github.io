@@ -2293,6 +2293,30 @@ input, select, textarea {
 	body.homepage.is-preload #header:after {
 		opacity: 1;
 	}
+	
+	.no-bullets {
+		list-style: none; /* Removes bullet points */
+		padding: 0; /* Removes default padding */
+		margin: 0; /* Removes default margin */
+	}
+	
+
+	.important-dates-table {
+		width: 60%; /* Set the width of the table */
+		border-collapse: collapse; /* Ensures borders don’t double */
+		margin: 20px auto; /* Centers the table */
+	}
+	
+	.important-dates-table th, 
+	.important-dates-table td {
+		width: 33%; /* Distributes columns evenly */
+		border: 2px solid black; /* Adds border */
+		text-align: center; /* Centers text */
+	}
+	
+	.important-dates-table th {
+		background-color: #f4f4f4; /* Light gray background for headers */
+	}
 
 /* Nav */
 
