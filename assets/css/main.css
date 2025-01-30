@@ -2274,7 +2274,7 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			background-repeat: no-repeat;
-			animation: slideshow 10s infinite normal;
+			animation: slideshow 20s infinite normal;
 			background-size: cover;
 			left: 0;
 			top: 0;
@@ -2292,12 +2292,14 @@ input, select, textarea {
 		}
 
 		@keyframes slideshow {
-			0%, 50% { background-image: url("../../images/heraklion-port.jpg");
-					  opacity: 1;
-					}
-			50.1%, 100% { background-image: url("../../images/FORTH-3.jpg"); 
-						opacity: 1;
-					}
+			0% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
+			5% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
+			45% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
+			50% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
+			51% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
+			55% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
+			95% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
+			100% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
 			}
 
 
