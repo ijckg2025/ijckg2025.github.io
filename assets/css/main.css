@@ -226,6 +226,11 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	.quote-text{
+		font-size: 0.5em;
+		padding-top: -2.0em;
+	}
+
 /* Container */
 
 	.container {
@@ -2187,6 +2192,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			padding-top: 0;
+			padding-left: 2.0em;
 		}
 
 /* Header */
