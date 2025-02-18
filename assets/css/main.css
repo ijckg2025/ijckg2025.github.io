@@ -2342,6 +2342,16 @@ input, select, textarea {
 		background-color: #f4f4f4; /* Light gray background for headers */
 	}
 
+	.org-committee-block {
+		width: 35%;
+		margin: 0 auto;
+		padding-left: 2em;
+		padding-right: 2em;
+		text-align: center;
+		justify-content: center;
+
+	}
+
 /* Nav */
 
 	#nav {
