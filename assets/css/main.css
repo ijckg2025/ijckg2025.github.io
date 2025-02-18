@@ -2197,7 +2197,7 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #000000;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2296,14 +2296,14 @@ input, select, textarea {
 		}
 
 		@keyframes slideshow {
-			0% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
-			5% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
-			45% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
-			50% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
-			51% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
-			55% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
-			95% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
-			100% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
+			0% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
+			5% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
+			45% { background-image: url("../../images/FORTH-3.jpg"); opacity: 1; }
+			50% { background-image: url("../../images/FORTH-3.jpg"); opacity: 0.4; }
+			51% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
+			55% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
+			95% { background-image: url("../../images/heraklion-port.jpg"); opacity: 1; }
+			100% { background-image: url("../../images/heraklion-port.jpg"); opacity: 0.4; }
 			}
 
 
