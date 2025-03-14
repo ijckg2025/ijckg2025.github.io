@@ -2201,7 +2201,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header_lighter.jpg");
+		background-image: url("../../images/pic08.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2362,6 +2362,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
+		align-items: end;
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
@@ -2370,11 +2371,15 @@ input, select, textarea {
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
-			display: inline-block;
+			display: inline-flex;
+			align-items: center;
 			margin: 0;
 			height: 21px;
 			border-left: solid 1px rgba(192, 192, 192, 0.35);
 			border-right: solid 1px rgba(192, 192, 192, 0.35);
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
 		}
 
 			#nav > ul:before, #nav > ul:after {
@@ -2404,6 +2409,7 @@ input, select, textarea {
 				margin: -9px 0.5em 0 0.5em;
 				border-radius: 0.5em;
 				padding: 0.85em;
+				align-items: center;
 				border: solid 1px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -2426,6 +2432,13 @@ input, select, textarea {
 				#nav > ul > li > ul {
 					display: none;
 				}
+
+				#nav > li:first-child {
+					position: absolute; /* Position it absolutely */
+					left: 10px; /* Move it to the top-left corner */
+					
+					margin: 0; /* Remove default margin */
+				  }
 
 	.dropotron {
 		background: rgba(255, 255, 255, 0.975);
