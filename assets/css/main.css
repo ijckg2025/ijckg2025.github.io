@@ -2589,6 +2589,23 @@ input, select, textarea {
 				#footer .copyright a:hover {
 					color: rgba(212, 212, 212, 0.85);
 				}
+				
+			#footer .follow-us {
+			text-align: center;
+			color: rgba(255, 255, 255, 0.75);
+			text-decoration: none;
+			cursor: default;
+			font-size: 20px;
+			gap: 20px;
+		}
+		
+		#footer .follow-us a {            
+            all: unset;  /* Resets all styles including underline */
+    		display: inline-block;  /* Ensures proper alignment */
+    		color: white; /* White icons */
+    		font-size: 24px;
+    		cursor: pointer; /* Keeps it clickable */   
+        }
 
 /* Carousel */
 
