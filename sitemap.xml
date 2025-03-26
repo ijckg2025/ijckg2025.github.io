@@ -79,6 +79,12 @@
       <priority>0.6</priority>
    </url>
    <url>
+      <loc>https://ijckg2025.github.io/participants/registration.html</loc>
+      <lastmod>2025-03-26</lastmod>
+      <changefreq>montly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
       <loc>https://ijckg2025.github.io/participants/venue.html</loc>
       <lastmod>2025-03-20</lastmod>
       <changefreq>montly</changefreq>
