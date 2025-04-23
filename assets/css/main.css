@@ -2545,7 +2545,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		position: relative;
+		position: absolute;
+		width: 100%;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		background: #2b252c;
