@@ -2739,7 +2739,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 1.5em 0 1.5em 0;
+				padding: 0 0 0 0;
 			}
 
 				.carousel .reel {
