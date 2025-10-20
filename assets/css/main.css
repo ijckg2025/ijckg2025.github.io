@@ -2348,6 +2348,27 @@ input, select, textarea {
 		background-color: #f4f4f4; /* Light gray background for headers */
 	}
 
+	.certificates-table {
+		width: 100%; /* Set the width of the table */
+		border-collapse: collapse; /* Ensures borders don’t double */
+		margin: 20px auto; /* Centers the table */
+	}
+	
+	.certificates-table th{
+		border: 2px solid black; /* Adds border */
+		text-align: center; /* Centers text */
+	}
+
+	.certificates-table td {
+		border: 2px solid black; /* Adds border */
+		text-align: left; /* Centers text */
+		vertical-align: middle;
+	}
+	
+	.certificates-table th {
+		background-color: #f4f4f4; /* Light gray background for headers */
+	}
+
 	.org-committee-block {
 		width: 50%;
 		margin: 0 auto;
